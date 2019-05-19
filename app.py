@@ -3,7 +3,6 @@ from flask import Flask, render_template
 #Get the SDK for Alexa 
 from flask_ask import Ask, statement, question, session
 #Get the SDK for Google Home
-#from flask_assistant import Assistant, ask as google_ask, tell as google_tell, user as google_user
 #import the database object and 
 from models import db, Users
 #import os module to get environment variable
