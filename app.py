@@ -10,6 +10,7 @@ from models import db, Users
 import os
 #import random to generate questions
 import random
+#This is a new comment
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
