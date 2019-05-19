@@ -1,0 +1,6 @@
+Flask
+gunicorn
+flask_sqlalchemy
+psycopg2
+flask_ask
+cryptography == 2.1.4
