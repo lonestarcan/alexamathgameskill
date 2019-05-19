@@ -3,7 +3,7 @@ from flask import Flask, render_template
 #Get the SDK for Alexa 
 from flask_ask import Ask, statement, question, session
 #Get the SDK for Google Home
-from flask_assistant import Assistant, ask as google_ask, tell as google_tell, user as google_user
+#from flask_assistant import Assistant, ask as google_ask, tell as google_tell, user as google_user
 #import the database object and 
 from models import db, Users
 #import os module to get environment variable
@@ -14,7 +14,7 @@ import random
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
-db.init_app(app)
+db.init_app(app)mathskillgame
 
 #Connecting Website to Amazon Alexa
 ask = Ask(app,'/game')
