@@ -14,7 +14,7 @@ import random
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
-db.init_app(app)mathskillgame
+db.init_app(app)
 
 #Connecting Website to Amazon Alexa
 ask = Ask(app,'/game')
